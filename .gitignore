@@ -1,0 +1,21 @@
+# Java后端忽略规则
+backend/target/
+backend/.idea/
+backend/*.iml
+backend/logs/
+
+# Vue前端忽略规则
+frontend-admin/node_modules/
+frontend-admin/dist/
+frontend-admin/.env.local
+frontend-admin/.vscode/
+
+# 微信小程序忽略规则
+frontend-mini/unpackage/
+frontend-mini/.vscode/
+
+# 系统通用忽略
+*.log
+*.swp
+Thumbs.db
+.DS_Store
